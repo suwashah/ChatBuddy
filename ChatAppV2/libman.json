@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "aspnet-signalr@1.0.27",
+      "destination": "wwwroot/aspnet-signalr/"
+    },
+    {
+      "library": "microsoft-signalr@8.0.0",
+      "destination": "wwwroot/microsoft-signalr/"
+    },
+    {
+      "library": "jquery-ajax-unobtrusive@3.2.6",
+      "destination": "wwwroot/lib/jquery/dist/",
+      "files": [
+        "jquery.unobtrusive-ajax.min.js"
+      ]
+    },
+    {
+      "library": "font-awesome@6.4.2",
+      "destination": "wwwroot/lib/font-awesome/",
+      "files": [
+        "css/all.min.css",
+        "js/all.min.js",
+        "sprites/regular.svg",
+        "webfonts/fa-regular-400.ttf",
+        "webfonts/fa-regular-400.woff2"
+      ]
+    }
+  ]
+}
